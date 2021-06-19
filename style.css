@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: "Poppins" sans-serif;
+    background-image: url(./szabo-viktor-28ZbKOWiZfs-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid;
+}
+h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+.countdown-container{
+    display: flex;
+    gap: 15px;
+}
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+    
+}
+.hero{
+    text-align: center;
+}
+
+
